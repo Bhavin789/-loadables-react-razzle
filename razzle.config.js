@@ -5,7 +5,10 @@ module.exports = {
     target === "web"
       ? {
           ...config,
-          plugins: [...config.plugins, new LoadablePlugin()],
+          plugins: [
+            ...config.plugins,
+            new LoadablePlugin({ writeToDisk: true }),
+          ],
         }
       : config,
 };
