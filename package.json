@@ -18,6 +18,7 @@
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
     "@loadable/babel-plugin": "^5.13.0",
     "@loadable/webpack-plugin": "^5.13.0"
   }
